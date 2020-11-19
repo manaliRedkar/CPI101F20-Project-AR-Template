@@ -1,0 +1,42 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title> SIGN IN </title>
+		<script type="text/javascript"  src="Quick.js"></script>
+	</head>
+
+	<body>
+		<div class="sign-in-details" >
+			<form action="/action_page.php">
+				<h1> Please enter your information below :</h1>
+	  			<label for="fname">First name:</label>
+	  			<input type="text" id="fname" name="fname" value="Manali"><br><br>
+
+	  			<label for="lname">Last name:</label>
+	  			<input type="text" id="lname" name="lname" value="Redkar"><br><br>
+
+	  			<label for="dob">Date of birth:</label>
+	  			<input type="integer" id="dob" name="dob" value="11/28/1999"><br><br>
+
+	  			<label for="zip">ZIP code:</label>
+	  			<input type="integer" id="zip" name="zip" value="85281"><br><br>
+
+	  			<label for="shoptype">Which shop do you want to Quick line up for? :</label>
+	  			<select name="shops" id="shops">
+				    <option value="walmart">Walmart</option>
+				    <option value="trader-joes">Trader Joes</option>
+				    <option value="safeway">Safeway</option>
+				    <option value="target">Target</option>
+			  	</select>
+
+			  	<br><br><br><br>
+	  			<input type="submit" value="Submit" onclick= "count()" >
+			</form>
+			
+		</div>
+
+		<a href="index.html"> BACK </a>
+
+	</body>
+</html>

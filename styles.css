@@ -1,0 +1,36 @@
+
+
+a{
+	position: absolute;
+	left: 40%;
+}
+
+.details{
+	color: red;
+	background-color: : plum;
+}
+.picture{
+	position: relative;
+  	text-align: center;
+  	color: black;
+  	font: sans-serif;
+}
+.centered{
+	position: absolute;
+  	top: 10%;
+  	left: 50%;
+  transform: translate(-50%, -50%);
+  font: bold;
+  font-size: 1.875em;
+}
+
+
+A:hover { COLOR: pink; TEXT-DECORATION: none; font-weight: none }
+
+.img{
+	max-width: 10%;
+    max-height: 20%;
+    content: centre;
+}
+body {background-image: url("http://www.allwhitebackground.com/formal-powerpoint-background.html/download/10225");}
+h1 { font-family: cursive ; font-size: 65px; font-color: ##005580; text-align:center; }
